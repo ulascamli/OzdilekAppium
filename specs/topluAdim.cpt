@@ -1,0 +1,72 @@
+Created by testinium on 23.05.2022
+
+This is a concept file with following syntax for each concept.
+# Pop up kapat
+* "3" kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/btnSuccess']" xpath'li elemente tıkla
+
+# Alışverişe Tıkla
+* "3" kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/tv_startShoppingStore']" xpath'li elemente tıkla
+* "3" kadar bekle
+
+# Kategoriye gir
+* "3" kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/nav_categories']" xpath'li elemente tıkla
+* "3" kadar bekle
+
+# Kategoride misin
+* "3" kadar bekle
+* Elementi "//android.widget.LinearLayout[@content-desc='Kategoriler']/android.widget.TextView" bul ve "Kategoriler" değerini kontrol et
+* "3" kadar bekle
+
+# Kadın menusune tikla ve pantolanlara gir
+* "3" kadar bekle
+* "//*[@text='Kadın']" xpath'li elemente tıkla
+* "3" kadar bekle
+* "//*[@text='Pantolon']" xpath'li elemente tıkla
+* "3" kadar bekle
+
+#Sayfayı 2 kere yukari kaydir
+* "3" kadar bekle
+* Sayfayı yukarı kaydır
+* "3" kadar bekle
+* Sayfayı yukarı kaydır
+* "3" kadar bekle
+
+#Rasgele urun sec ve favoriye tikla
+* "3" kadar bekle
+* "4" sonra ürün rasgele seçilecektir.
+* "3" kadar bekle
+* Elementi "//*[@text='SEPETE EKLE']" bul ve "SEPETE EKLE" değerini kontrol et
+* "3" kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayAddFav']" xpath'li elemente tıkla
+* "3" kadar bekle
+
+# Kullanıcı adi sifre gir
+* "3" kadar bekle
+* Elementi "//*[@text='Parolamı Unuttum']" bul ve "Parolamı Unuttum" değerini kontrol et
+* "3" kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etEposta']" xpath'li elemente tıkla
+* "3" kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etEposta']" xpath'li elemente "ulas_1998@hotmail.com" değerini yaz
+* "3" kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etPassword']" xpath'li elemente tıkla
+* "3" kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etPassword']" xpath'li elemente "123456qweR" değerini yaz
+* "3" kadar bekle
+
+# 2 kere geri butonuna bas
+* "3" kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/ivBack']" xpath'li elemente tıkla
+* "3" kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/ivBack']" xpath'li elemente tıkla
+* "3" kadar bekle
+
+# Rasgele Urun sec ve sepete ekleye bas
+* "3" kadar bekle
+* "4" sonra ürün rasgele seçilecektir.
+* "3" kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayAddCartBtn']" xpath'li elemente tıkla
+* "3" kadar bekle
+
